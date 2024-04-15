@@ -1,0 +1,71 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AdminServiceApplication",
+            "request": "launch",
+            "mainClass": "com.example.AdminServiceApplication",
+            "projectName": "admin_service"
+        },
+        {
+            "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.example.ApiGatewayApplication",
+            "projectName": "api_gateway"
+        },
+        {
+            "type": "java",
+            "name": "AuthorServiceApplication",
+            "request": "launch",
+            "mainClass": "com.project.AuthorServiceApplication",
+            "projectName": "author_service"
+        },
+        {
+            "type": "java",
+            "name": "BookContentServiceApplication",
+            "request": "launch",
+            "mainClass": "com.ebook.BookContentServiceApplication",
+            "projectName": "book_content_service"
+        },
+        {
+            "type": "java",
+            "name": "BookServiceApplication",
+            "request": "launch",
+            "mainClass": "com.example.BookServiceApplication",
+            "projectName": "book_service"
+        },
+        {
+            "type": "java",
+            "name": "EbookServiceApplication",
+            "request": "launch",
+            "mainClass": "com.example.EbookServiceApplication",
+            "projectName": "ebook_service"
+        },
+        {
+            "type": "java",
+            "name": "ServiceRegistryApplication",
+            "request": "launch",
+            "mainClass": "com.example.ServiceRegistryApplication",
+            "projectName": "service_registry"
+        },
+        {
+            "type": "java",
+            "name": "UserServiceApplication",
+            "request": "launch",
+            "mainClass": "com.example.UserServiceApplication",
+            "projectName": "user_service"
+        }
+    ]
+}
